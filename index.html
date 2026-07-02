@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Work Journey as a Trainer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:linear-gradient(135deg,#0077b6,#00b4d8);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+/* Navigation */
+nav{
+    background:#023e8a;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#90e0ef;
+}
+
+/* Sections */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+section{
+    background:white;
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+/* Timeline */
+.timeline{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#eaf7ff;
+    padding:20px;
+    border-left:6px solid #0077b6;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    background:#d8f3ff;
+}
+
+/* Skills */
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    background:#0077b6;
+    color:white;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* Footer */
+footer{
+    background:#023e8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+button{
+    background:#0077b6;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:20px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#0096c7;
+}
+
+@media(max-width:768px){
+header h1{
+    font-size:2.2rem;
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Work Journey as a Trainer</h1>
+    <p>Sharing my experience, growth, and passion for learning & development.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#journey">Journey</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Welcome to my professional journey as a trainer. Throughout my career,
+        I have dedicated myself to helping individuals and organizations improve
+        their knowledge, skills, and performance. My training sessions focus on
+        practical learning, engagement, and continuous improvement.
+    </p>
+</section>
+
+<section id="journey">
+    <h2>Career Journey</h2>
+
+    <div class="timeline">
+
+        <div class="card">
+            <h3>2018</h3>
+            <p>Began my career as a junior trainer, delivering workshops and assisting senior facilitators.</p>
+        </div>
+
+        <div class="card">
+            <h3>2020</h3>
+            <p>Designed customized training programs for corporate teams and educational institutions.</p>
+        </div>
+
+        <div class="card">
+            <h3>2022</h3>
+            <p>Conducted online and hybrid training sessions using modern digital learning platforms.</p>
+        </div>
+
+        <div class="card">
+            <h3>2024 - Present</h3>
+            <p>Leading professional development workshops, mentoring trainers, and creating engaging learning experiences.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="skills">
+    <h2>Training Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Leadership Training</div>
+        <div class="skill">Communication Skills</div>
+        <div class="skill">Public Speaking</div>
+        <div class="skill">Team Building</div>
+        <div class="skill">Presentation Skills</div>
+        <div class="skill">Coaching & Mentoring</div>
+        <div class="skill">Online Training</div>
+        <div class="skill">Learning Design</div>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Get in Touch</h2>
+
+    <p>
+        Interested in training programs, workshops, or collaboration?
+        Feel free to connect with me.
+    </p>
+
+    <button onclick="showMessage()">Contact Me</button>
+
+</section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 My Work Journey as a Trainer | Designed with HTML & CSS</p>
+</footer>
+
+<script>
+function showMessage(){
+    alert("Thank you for visiting my training journey website!");
+}
+</script>
+
+</body>
+</html>
